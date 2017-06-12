@@ -1,24 +1,33 @@
 ![Travis build status](https://travis-ci.org/Robert-G-J/Bank.svg?branch=master)
 
-What is 'Bank'?
----------------
-Bank is a single day, solo attempt to mimic the behaviour of a banking interface.
-It is written in Ruby, with minimal 3rd party software. 
+# What is 'Bank'?
 
-Approach:
---------
+Bank is a single day, solo attempt to mimic the behaviour of a banking interface. It is written in Ruby, with minimal 3rd party software.
 
+# Installation:
 
-
-Installation:
--------------
-- Clone me down from https://github.com/Robert-G-J/Bank
-
-
-User Stories:
--------------
+Clone me down from https://github.com/Robert-G-J/Bank
 ```
-As a client 
+$ cd path/to/file
+$ bundle install
+```
+Your choice of REPL; I like PRY:
+```
+$ pry
+```
+Require this file:
+```
+require_relative 'lib/account.rb'
+```
+
+# Run Tests:
+```
+$ rspec
+```
+# User Stories:
+
+```
+As a client
 So that I can keep my money secure
 I want to deposit it in a bank
 
@@ -37,10 +46,19 @@ I want to see the timestamps of my withdrawals and deposits
 As a client
 So that I can track my balance
 I want to see a print out of withdrawls, deposits, date and balance
-
 ```
-Technologies:
--------------
 
+# Technologies:
 
+- **Travis** for continuous build
+- **Hound** for style checking on pull requests
 
+# Dependencies:
+
+- Rubocop (for style)
+- RSpec
+- Simplecov
+
+# Code Coverage
+
+Simplecov reports at 100%
