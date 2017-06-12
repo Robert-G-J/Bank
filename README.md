@@ -1,3 +1,5 @@
+![Travis build status](https://travis-ci.org/Robert-G-J/Bank.svg?branch=master)
+
 What is 'Bank'?
 ---------------
 Bank is a single day, solo attempt to mimic the behaviour of a banking interface.
