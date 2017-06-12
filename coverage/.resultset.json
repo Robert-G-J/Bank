@@ -54,8 +54,8 @@
         1,
         null,
         1,
-        8,
-        8,
+        7,
+        7,
         null,
         null,
         1,
@@ -63,7 +63,7 @@
         null,
         null,
         1,
-        4,
+        3,
         null,
         null,
         1,
@@ -71,7 +71,7 @@
         null,
         null,
         1,
-        2,
+        1,
         null,
         null,
         1,
@@ -92,21 +92,8 @@
         1,
         null,
         1,
-        7,
-        7,
-        null,
-        null
-      ],
-      "/Users/robertjones/Projects/tech_tests/bank/spec/features/outputs_a_statement_spec.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        2,
-        null,
+        6,
+        6,
         null,
         null
       ],
@@ -130,6 +117,6 @@
         null
       ]
     },
-    "timestamp": 1497282444
+    "timestamp": 1497282691
   }
 }
